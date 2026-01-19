@@ -22,15 +22,22 @@
     border-radius: 30px;
     font-size: 1rem;
     font-weight: 600;
-    transition: transfrom ;
+    vertical-align: middle;
 }
 /* Main Style */
+header{
+
+}
 .navbar{
-    justify-content: space-around;
+    width: 100%;
+    max-width: 1600px;
+}
+.nav-container{
+    justify-content: space-between;
     align-items: center;
     padding: 16px 200px;
 }
-.logo{
+.logo p{
     font-size: 2rem;
     font-weight: 700;
     color: white;
@@ -52,4 +59,79 @@
     font-weight: 500;
     color: white;
     text-decoration: none;
+}
+.menubar{
+    display: none;
+}
+/* banner */
+.banner{
+    background-image: url(../assets/hero-bg.jpg);
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+ 
+}
+.banner-container{
+    position: relative;
+    
+}
+.circle-png{
+   position: absolute;
+   top: 101px;
+   left: 625px;
+}
+.mick-png{
+    position: absolute;
+    top: 178px;
+    left: 740px;
+}
+.badge{
+    background-color: #00FF88;
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+    color: rgba(26, 11, 46, 1);
+    border-radius: 1000px;
+    padding: 8px 16px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    position: absolute;
+    top: 113px;
+   left: 877px;
+}
+.content{
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 491px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.banner-describtion{
+    margin-bottom: 24px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.spotify-icon{
+   margin-right: 8px;
+}
+/* small devivce */
+@media screen and (max-width:576px) {
+    .navbar{
+       width: 100vw;
+    }
+    .nav-container{
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .menubar{
+        display: inline;
+        color: white;
+    }
+    .display{
+        display: none;
+    }
 }
