@@ -16,11 +16,9 @@
   <body class="inter-font">
     <header>
       <nav class="navbar bg-color">
-        <div class="nav-container display-flex">
-          <div class="logo">
-            <p>Tech<span>Wave</span></p>
-          </div>
-          <ul class="item-list display-flex display">
+        <div class="nav-container">
+          <p class="logo">Tech<span>Wave</span></p>
+          <ul class="item-list display">
             <li class="item"><a href="" class="item-link">About</a></li>
             <li class="item"><a href="" class="item-link">Episodes</a></li>
             <li class="item"><a href="" class="item-link">Host</a></li>
@@ -33,9 +31,11 @@
       </nav>
       <section class="banner">
         <div class="banner-container">
-          <img src="./assets/hero-circle.png" alt="" class="circle-png" />
-          <img src="./assets/microphone.png" alt="" class="mick-png" />
-          <span class="badge">New</span>
+          <div class="image-container">
+            <img src="./assets/hero-circle.png" alt="" class="circle-png" />
+            <img src="./assets/microphone.png" alt="" class="mick-png" />
+            <span class="badge">New</span>
+          </div>
           <div class="content">
             <h1 class="banner-title">TechWave</h1>
             <p class="banner-describtion">
@@ -84,16 +84,16 @@
             <p class="rating-describtion">Monthly Listeners</p>
           </div>
           <div class="rating-contant">
-            <p class="rating">150K+</p>
-            <p class="rating-describtion">Monthly Listeners</p>
+            <p class="rating">200+</p>
+            <p class="rating-describtion">Episodes Published</p>
           </div>
           <div class="rating-contant">
-            <p class="rating">150K+</p>
-            <p class="rating-describtion">Monthly Listeners</p>
+            <p class="rating">4.9★</p>
+            <p class="rating-describtion">Average Rating</p>
           </div>
           <div class="rating-contant">
-            <p class="rating">150K+</p>
-            <p class="rating-describtion">Monthly Listeners</p>
+            <p class="rating">50+</p>
+            <p class="rating-describtion">Industry Experts</p>
           </div>
         </div>
       </section>
@@ -150,7 +150,7 @@
 
       <section id="feature-section" class="bg-color">
         <div class="feature-container">
-          <div class="feature-heading">Featured EpisodesFeatured Episodes</div>
+          <div class="feature-heading">Featured Episodes</div>
           <div class="feature-card-section">
             <div class="feature-card">
               <iframe
@@ -176,16 +176,16 @@
                 Exploring how artificial intelligence is transforming our daily
                 routines and what to expect in the next decade.
               </div>
-              <p class="time"><img src="./assets/clock.png" alt="">42min</p>
+              <p class="time"><img src="./assets/clock.png" alt="" />42min</p>
             </div>
             <div class="feature-card">
               <iframe
-              width="380"
-              height="214"
-              src="https://www.youtube.com/embed/muBBYZXYgoM?si=824bNGL2eay8eUDO"
-              title="YouTube video player"
-              frameborder="0"
-              allow="
+                width="380"
+                height="214"
+                src="https://www.youtube.com/embed/muBBYZXYgoM?si=824bNGL2eay8eUDO"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
                   accelerometer;
                   autoplay;
                   clipboard-write;
@@ -193,28 +193,28 @@
                   gyroscope;
                   picture-in-picture;
                   web-share;
-                  "
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                  ></iframe>
-                  <h1 class="feature-title">
-                    Building Better Habits for Remote Work
-                  </h1>
-                  <div class="feature-description">
-                    Practical strategies for staying productive and maintaining
-                    work-life balance in a remote environment.
-                  </div>
-                  <p class="time"><img src="./assets/clock.png" alt="">42min</p>
-                </div>
-                <div class="feature-card">
-                  <iframe
-                  width="380"
-                  height="214"
-                  src="https://www.youtube.com/embed/tc35IOkO9QA?si=ke0tMb0lrfsI7hvy"
-                  title="YouTube video player"
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <h1 class="feature-title">
+                Building Better Habits for Remote Work
+              </h1>
+              <div class="feature-description">
+                Practical strategies for staying productive and maintaining
+                work-life balance in a remote environment.
+              </div>
+              <p class="time"><img src="./assets/clock.png" alt="" />42min</p>
+            </div>
+            <div class="feature-card">
+              <iframe
+                width="380"
+                height="214"
+                src="https://www.youtube.com/embed/tc35IOkO9QA?si=ke0tMb0lrfsI7hvy"
+                title="YouTube video player"
                 frameborder="0"
                 allow="
-                accelerometer;
+                  accelerometer;
                   autoplay;
                   clipboard-write;
                   encrypted-media;
@@ -230,11 +230,68 @@
                 Expert advice on navigating your tech career from junior
                 developer to senior leadership roles.
               </div>
-              <p class="time"><img src="./assets/clock.png" alt="">42min</p>
+              <p class="time"><img src="./assets/clock.png" alt="" />42min</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="host" class="bg-color">
+        <div class="host-container">
+          <h1 class="host-heading">Meet the Host</h1>
+          <div class="host-contant">
+            <div class="host-image">
+              <img src="./assets/host.png" alt="" />
+            </div>
+            <div class="host-detail">
+              <div class="host-title">Alex Kumar</div>
+              <p class="host-describtion">
+                Tech entrepreneur, productivity expert, and lifelong learner.
+                Alex has been in the tech industry for over 10 years, working
+                with startups and Fortune 500 companies. Through TechWave, Alex
+                shares insights from industry leaders and practical advice for
+                anyone looking to grow in tech.
+              </p>
+              <div class="icons">
+                <p class="icon"><img src="./assets/linkedin.png" alt="" /></p>
+                <p class="icon"><img src="./assets/instagram.png" alt="" /></p>
+                <p class="icon"><img src="./assets/x.png" alt="" /></p>
+                <p class="icon">
+                  <img
+                    src="./assets/youtube.png
+            "
+                    alt=""
+                  />
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-title"><img src="./assets/TechWave.png" alt="" /></div>
+      <div class="icons-logo">
+        <div class="icons-logo1">
+          <p class="logo-name">
+            <img src="./assets/spotify.png" alt="" /> Spotify
+          </p>
+          <p class="logo-name">
+            <img src="./assets/apple-podcast.png" alt="" /> Apple Podcasts
+          </p>
+        </div>
+        <div class="icons-logo2">
+          <p class="logo-name">
+            <img src="./assets/youtube-podcast.png" alt="" /> YouTube
+          </p>
+          <p class="logo-name">
+            <img src="./assets/twitter.png" alt="" /> Twitter
+          </p>
+        </div>
+      </div>
+      <div class="copyright-section">
+        <p class="copyright">© 2026 TechWave Podcast. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
