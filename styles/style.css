@@ -368,10 +368,10 @@ footer {
         clip-path: inset(0 0 0 0);
     }
 }
-.rating-container,.choose-container,.feature-container,.host-container,.footer-container{
+.rating-container,.choose-container,.feature-container,.host-container,.footer-container,.about-container{
     animation: scroll linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 35%;
 }
 
 
